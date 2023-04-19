@@ -32,14 +32,6 @@ const Header = () =>  (
         </Link>
       </li>
     </Div2>
-    <Div3>
-      <SocialIcons href="https://github.com/Malav-P">
-        <AiFillGithub size="3rem"></AiFillGithub>
-      </SocialIcons>
-      <SocialIcons href="https://www.linkedin.com/in/malavp00/">
-        <AiFillLinkedin size="3rem"></AiFillLinkedin>
-      </SocialIcons>
-    </Div3>
 
     <Div4>
       <li style={{padding:'0 2dvw'}}>
@@ -54,6 +46,16 @@ const Header = () =>  (
         </Link>
       </li>
     </Div4>
+    <Div3>
+      <SocialIcons href="https://github.com/Malav-P">
+        <AiFillGithub size="3rem"></AiFillGithub>
+      </SocialIcons>
+      <SocialIcons href="https://www.linkedin.com/in/malavp00/">
+        <AiFillLinkedin size="3rem"></AiFillLinkedin>
+      </SocialIcons>
+    </Div3>
+
+
   </Container>
 );
 
