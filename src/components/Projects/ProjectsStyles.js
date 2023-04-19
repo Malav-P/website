@@ -18,7 +18,7 @@ row-gap: 3rem;
   display: flex;
   flex-direction: column;
   padding: 2rem;
-  padding-bottom: 0;
+  padding-bottom: 15px;
 }
 
 `
@@ -75,7 +75,8 @@ export const CardInfo = styled.p`
   line-height: 24px;
   text-align: justify;
   @media ${(props) => props.theme.breakpoints.sm} {
-    padding:.3rem
+    padding-left: 3rem;
+    padding-right: 3rem;
   
 }
 `;
@@ -106,6 +107,12 @@ export const TagList = styled.ul`
 display: flex;
 justify-content: space-around;
 padding: 2rem;
+
+@media ${(props) => props.theme.breakpoints.sm} {
+ display:flex;
+ justify-content: space-evenly;
+
+}
 `
 export const Tag = styled.li`
 color: #d8bfbf;

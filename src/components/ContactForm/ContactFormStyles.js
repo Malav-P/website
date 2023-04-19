@@ -18,6 +18,7 @@ import styled from "styled-components"
   }
   
   @media ${props => props.theme.breakpoints.sm}{
+    width: 65%;
     display: flex;
     flex-direction: column;
     margin: 32px 0;
