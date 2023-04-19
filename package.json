@@ -1,13 +1,10 @@
 {
   "name": "portfolio_nextjs",
   "version": "0.1.0",
-  "homepage": "https://Malav-P.github.io",
   "private": true,
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d out",
     "dev": "next dev",
-    "build": "next build && next export",
+    "build": "next build",
     "start": "next start -p 3001"
   },
   "dependencies": {
@@ -20,7 +17,6 @@
     "typed.js": "^2.0.15"
   },
   "devDependencies": {
-    "@iconify/react": "^4.1.0",
-    "gh-pages": "^5.0.0"
+    "@iconify/react": "^4.1.0"
   }
 }
