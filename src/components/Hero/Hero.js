@@ -9,7 +9,7 @@ const Hero = () => {
   const el = useRef(null);
   useEffect(() => {
     const typed = new Typed(el.current, {
-      strings: ["I hope here you can learn a little about me.^1000 I am a PhD student with interests in machine learning, optimization, and space application.^3000"], // Strings to display
+      strings: ["I hope you can learn a little about me here.^1000 I am a PhD student with interests in machine learning, optimization, and space application.^3000"], // Strings to display
       // Speed settings, try diffrent values untill you get good results
       startDelay: 300,
       typeSpeed: 40,
