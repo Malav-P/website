@@ -52,7 +52,7 @@ export const publications = [
    description: 'An integer linear program is formulated for the optimal phasing of satellite constellations for cislunar space domain awareness',
    image: 'images/cislunar.gif', // found at (need to cite this!) https://commons.wikimedia.org/wiki/File:Animation_of_Moon_orbit_around_Earth.gif
    paper: 'https://doi.org/10.48550/arXiv.2311.10252',
-   source:'https://github.com/Malav-P',
+   source:'https://github.com/Malav-P/CdaOpt.git',
    id:0,
   }
 
